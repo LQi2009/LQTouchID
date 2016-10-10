@@ -29,6 +29,15 @@ func isTouchIdEnable() -> Bool
 ```swift
 func startVerifyTouchID(completion: @escaping ()-> Void) 
 ```
+另外还有两个属性
+```
+    //解释校验指纹的原因
+    var reasonThatExplainAuthentication: String
+    //如果用户拒绝使用touchID解锁，则 显示提醒。
+    var alertMessageToShowWhenUserDisableTouchID: String
+```
+可分别设置相应的提示信息,都有默认值,可不设置.
+
 示例:
 ```swift
 @IBAction func useTouchID(_ sender: UISwitch) {
