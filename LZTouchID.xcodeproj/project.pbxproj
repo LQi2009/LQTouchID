@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A7EFBC1DAB614F00561A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7EFBB1DAB614F00561A34 /* AppDelegate.swift */; };
+		91A7EFBE1DAB614F00561A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7EFBD1DAB614F00561A34 /* ViewController.swift */; };
+		91A7EFC11DAB614F00561A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A7EFBF1DAB614F00561A34 /* Main.storyboard */; };
+		91A7EFC31DAB614F00561A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A7EFC21DAB614F00561A34 /* Assets.xcassets */; };
+		91A7EFC61DAB614F00561A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A7EFC41DAB614F00561A34 /* LaunchScreen.storyboard */; };
+		91A7EFD11DAB615000561A34 /* LZTouchIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7EFD01DAB615000561A34 /* LZTouchIDUITests.swift */; };
+		91A7EFDD1DAB618800561A34 /* LZTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7EFDC1DAB618800561A34 /* LZTouchID.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A7EFCD1DAB615000561A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A7EFB01DAB614F00561A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A7EFB71DAB614F00561A34;
+			remoteInfo = LZTouchID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A7EFB81DAB614F00561A34 /* LZTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A7EFBB1DAB614F00561A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91A7EFBD1DAB614F00561A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91A7EFC01DAB614F00561A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A7EFC21DAB614F00561A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A7EFC51DAB614F00561A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91A7EFC71DAB614F00561A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A7EFCC1DAB615000561A34 /* LZTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A7EFD01DAB615000561A34 /* LZTouchIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZTouchIDUITests.swift; sourceTree = "<group>"; };
+		91A7EFD21DAB615000561A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A7EFDC1DAB618800561A34 /* LZTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZTouchID.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A7EFB51DAB614F00561A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A7EFC91DAB615000561A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A7EFAF1DAB614F00561A34 = {
+			isa = PBXGroup;
+			children = (
+				91A7EFBA1DAB614F00561A34 /* LZTouchID */,
+				91A7EFCF1DAB615000561A34 /* LZTouchIDUITests */,
+				91A7EFB91DAB614F00561A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A7EFB91DAB614F00561A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A7EFB81DAB614F00561A34 /* LZTouchID.app */,
+				91A7EFCC1DAB615000561A34 /* LZTouchIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A7EFBA1DAB614F00561A34 /* LZTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				91A7EFDB1DAB617500561A34 /* LZTouchID */,
+				91A7EFBB1DAB614F00561A34 /* AppDelegate.swift */,
+				91A7EFBD1DAB614F00561A34 /* ViewController.swift */,
+				91A7EFBF1DAB614F00561A34 /* Main.storyboard */,
+				91A7EFC21DAB614F00561A34 /* Assets.xcassets */,
+				91A7EFC41DAB614F00561A34 /* LaunchScreen.storyboard */,
+				91A7EFC71DAB614F00561A34 /* Info.plist */,
+			);
+			path = LZTouchID;
+			sourceTree = "<group>";
+		};
+		91A7EFCF1DAB615000561A34 /* LZTouchIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91A7EFD01DAB615000561A34 /* LZTouchIDUITests.swift */,
+				91A7EFD21DAB615000561A34 /* Info.plist */,
+			);
+			path = LZTouchIDUITests;
+			sourceTree = "<group>";
+		};
+		91A7EFDB1DAB617500561A34 /* LZTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				91A7EFDC1DAB618800561A34 /* LZTouchID.swift */,
+			);
+			path = LZTouchID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A7EFB71DAB614F00561A34 /* LZTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A7EFD51DAB615000561A34 /* Build configuration list for PBXNativeTarget "LZTouchID" */;
+			buildPhases = (
+				91A7EFB41DAB614F00561A34 /* Sources */,
+				91A7EFB51DAB614F00561A34 /* Frameworks */,
+				91A7EFB61DAB614F00561A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZTouchID;
+			productName = LZTouchID;
+			productReference = 91A7EFB81DAB614F00561A34 /* LZTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A7EFCB1DAB615000561A34 /* LZTouchIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A7EFD81DAB615000561A34 /* Build configuration list for PBXNativeTarget "LZTouchIDUITests" */;
+			buildPhases = (
+				91A7EFC81DAB615000561A34 /* Sources */,
+				91A7EFC91DAB615000561A34 /* Frameworks */,
+				91A7EFCA1DAB615000561A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A7EFCE1DAB615000561A34 /* PBXTargetDependency */,
+			);
+			name = LZTouchIDUITests;
+			productName = LZTouchIDUITests;
+			productReference = 91A7EFCC1DAB615000561A34 /* LZTouchIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A7EFB01DAB614F00561A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					91A7EFB71DAB614F00561A34 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29BN9F9KNE;
+						ProvisioningStyle = Automatic;
+					};
+					91A7EFCB1DAB615000561A34 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91A7EFB71DAB614F00561A34;
+					};
+				};
+			};
+			buildConfigurationList = 91A7EFB31DAB614F00561A34 /* Build configuration list for PBXProject "LZTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A7EFAF1DAB614F00561A34;
+			productRefGroup = 91A7EFB91DAB614F00561A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A7EFB71DAB614F00561A34 /* LZTouchID */,
+				91A7EFCB1DAB615000561A34 /* LZTouchIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A7EFB61DAB614F00561A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A7EFC61DAB614F00561A34 /* LaunchScreen.storyboard in Resources */,
+				91A7EFC31DAB614F00561A34 /* Assets.xcassets in Resources */,
+				91A7EFC11DAB614F00561A34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A7EFCA1DAB615000561A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A7EFB41DAB614F00561A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A7EFBE1DAB614F00561A34 /* ViewController.swift in Sources */,
+				91A7EFDD1DAB618800561A34 /* LZTouchID.swift in Sources */,
+				91A7EFBC1DAB614F00561A34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A7EFC81DAB615000561A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A7EFD11DAB615000561A34 /* LZTouchIDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A7EFCE1DAB615000561A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A7EFB71DAB614F00561A34 /* LZTouchID */;
+			targetProxy = 91A7EFCD1DAB615000561A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91A7EFBF1DAB614F00561A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A7EFC01DAB614F00561A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91A7EFC41DAB614F00561A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A7EFC51DAB614F00561A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A7EFD31DAB615000561A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A7EFD41DAB615000561A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A7EFD61DAB615000561A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				INFOPLIST_FILE = LZTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91A7EFD71DAB615000561A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				INFOPLIST_FILE = LZTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91A7EFD91DAB615000561A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LZTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LZTouchID;
+			};
+			name = Debug;
+		};
+		91A7EFDA1DAB615000561A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LZTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LZTouchID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A7EFB31DAB614F00561A34 /* Build configuration list for PBXProject "LZTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A7EFD31DAB615000561A34 /* Debug */,
+				91A7EFD41DAB615000561A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A7EFD51DAB615000561A34 /* Build configuration list for PBXNativeTarget "LZTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A7EFD61DAB615000561A34 /* Debug */,
+				91A7EFD71DAB615000561A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91A7EFD81DAB615000561A34 /* Build configuration list for PBXNativeTarget "LZTouchIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A7EFD91DAB615000561A34 /* Debug */,
+				91A7EFDA1DAB615000561A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A7EFB01DAB614F00561A34 /* Project object */;
+}
